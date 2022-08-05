@@ -65,7 +65,7 @@ void chomp() {
   return;
 }
 
-void functionalTest() {
+void functionalTest() { 
   blink();
   chomp();
   leftEye.write(120);
@@ -77,10 +77,9 @@ void functionalTest() {
   setDefault();
 }
 
-float clockTime = 0;
-void loop() {
+void loop() { //repeats the functional test --- open to adaptation and movement controllers
+  digitalWrite(light, HIGH);
 
   functionalTest();
-  delay(500);
-  
+  delay(500); 
 }
