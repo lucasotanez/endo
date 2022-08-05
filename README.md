@@ -1,5 +1,5 @@
 # endo
-A robot head I made to scare my family members
+A robot head I made for fun and to scare my family members
 
 - Arduino UNO R3
 - 4 small servos (eyes)
